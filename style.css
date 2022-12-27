@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --LightCyan: #2ab3b1;
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGrey: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    color: var(--LightGrey);
+}
+body{
+    background-color: var(--LightGrey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background-color: black;
+    height: 475px;
+    width:635px;
+    border-radius: 10px;
+    border: none;
+}
+.top{
+    height: 220px;
+    background-color: white;
+    border-radius: 9px 9px 0 0;
+    border: none;
+}
+.top-text{
+    padding-top:40px;
+    padding-left:45px;
+}
+.top-text h1{
+    font-size: 24px;
+    color: #2ab3b1;
+}
+.top-text h2 {
+    padding-top:30px;
+    font-size: 18px;
+    color: var(--BrightYellow);
+}
+.top-text p{
+    padding-top: 20px;
+    font-size: 16px;
+    letter-spacing: -.2;
+    font-weight: 400;
+    line-height: 26px;
+    color: #9aa7be;
+}
+.bottom{
+    height: 257px;
+    background-color: var(--Cyan);
+    border-radius: 0 0 9px 9px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    width:320px;
+}
+.left-text{
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.left-text h2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color: white;
+}
+.left-text h3{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    letter-spacing: -0.4px;
+    color: white;
+    padding-top: 18px;
+}
+.left-text span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color: white;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    top: 6px;
+}
+.left-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    color:white;
+    padding-top: 4px;
+}
+button{
+    margin-top: 26px;
+    height: 48px;
+    width: 237px;
+    background-color: #c0df33;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.0973011);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.2;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.right{
+    width:315px;
+    border-radius: 0 0 9px 0;
+    background-color: white;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+.right-text{
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.right-text h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    color:grey;
+    
+}
